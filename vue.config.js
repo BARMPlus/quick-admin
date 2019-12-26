@@ -75,6 +75,7 @@ module.exports = {
           'icons': resolve('src/icons'),
           'layout': resolve('src/layout'),
           'router': resolve('src/router'),
+          'sprites': resolve('src/sprites'),
           'store': resolve('src/store'),
           'styles': resolve('src/styles'),
           'utils': resolve('src/utils'),

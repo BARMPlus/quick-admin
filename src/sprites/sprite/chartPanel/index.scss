@@ -1,0 +1,5 @@
+.sprite-chartPanel { background-image: url(~sprites/sprite/chartPanel/index.png);background-size:36px 204px}
+.sprite-chartPanel-biAxisLine {display:inline-block; width: 36px; height: 36px; background-position: 0px 0px;@extend .sprite-chartPanel }
+.sprite-chartPanel-card {display:inline-block; width: 36px; height: 36px; background-position: 0px -56px;@extend .sprite-chartPanel }
+.sprite-chartPanel-no-biAxisLine {display:inline-block; width: 36px; height: 36px; background-position: 0px -112px;@extend .sprite-chartPanel }
+.sprite-chartPanel-no-card {display:inline-block; width: 36px; height: 36px; background-position: 0px -168px;@extend .sprite-chartPanel }

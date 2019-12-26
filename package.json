@@ -14,6 +14,7 @@
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --fix  --ext .js,.vue src",
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
+    "sprite": "node src/utils/develop/sprite",
     "dll": "webpack --config ./dll/webpack.dll.js"
   },
   "husky": {
@@ -45,8 +46,8 @@
     "@babel/register": "7.0.0",
     "@vue/cli-plugin-babel": "3.5.3",
     "@vue/cli-plugin-eslint": "3.9.1",
-    "@vue/eslint-config-standard": "4.0.0",
     "@vue/cli-service": "3.5.3",
+    "@vue/eslint-config-standard": "4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "add-asset-html-webpack-plugin": "3.1.3",
     "autoprefixer": "9.5.1",
@@ -66,10 +67,12 @@
     "sass-loader": "7.1.0",
     "script-ext-html-webpack-plugin": "2.1.3",
     "script-loader": "0.7.2",
+    "sprite-tool": "0.8.8",
     "svg-sprite-loader": "4.1.3",
     "svgo": "1.2.0",
     "vue-template-compiler": "2.6.10",
-    "webpack-cli": "3.3.9"
+    "webpack-cli": "3.3.9",
+    "webpack-spritesmith": "1.0.2"
   },
   "engines": {
     "node": ">=8.9",
