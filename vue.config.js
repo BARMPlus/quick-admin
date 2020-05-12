@@ -6,8 +6,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const AddAssetHtmlPlugin=require('add-asset-html-webpack-plugin')
 const defaultSettings = require('./src/settings.js')
 
-function resolve(dir) {
-  return path.join(__dirname, dir)
+function resolve(...dir) {
+  return path.join(__dirname, ...dir)
 }
 
 const name = defaultSettings.title || '后台管理系统'
